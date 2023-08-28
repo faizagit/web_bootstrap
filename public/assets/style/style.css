@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&family=Quicksand:wght@500;600&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&family=Quicksand:wght@500;600&family=Roboto:wght@900&family=Rubik&display=swap');
+
+body {
+    font-family: 'Quicksand',sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto',sans-serif;
+}
+
+.bg-btn {
+    background-color: #d3a24c;
+    color: white;
+}
+.bg-btn:hover {
+    background-color: #af863f;
+}
+.zoom {
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.1);
+    /* transition: 0.4s; */
+}
+.spotlight {
+    background: linear-gradient(180deg, #f3f3f3, #f3f3f3);
+}
